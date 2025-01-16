@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cálculo IMC(Índice de Massa Corporal)</h1>
+  </header>
+  <main>
+    <section>
+      <h2>O peso ideal fica entre 18 e 24!</h2>
+      <p>Se você estiver abaixo de 18, está abaixo do peso. E se estiver acima de 24, está acima do peso.</p>
+    </section>
+    <section>
+      <h3>Preencha com peso e altura:</h3>
+    <form action="#">
+      <label for="peso"><strong>Peso:</strong></label>
+      <input type="text" inputmode="numeric" placeholder="Digite seu peso" id="peso" name="peso" required>
+      <label for="altura"><strong>Altura:</strong></label>
+      <input type="text" inputmode="numeric" placeholder="Digite sua altura" id="altura" name="altura" required>
+      <button type="submit"><strong>Calcular</strong></button>
+    </form>
+    </section>
+    <section>
+      <h4>Lembre-se que, o peso ideal fica entre: 18 e 24!</h4>
+    <p>O seu IMC é: <span class="result"></span></p>
+    </section>
+  </main>
+  <footer>
+    <p>Cálculo retirado em: <a href="https://vidasaudavel.einstein.br/calcular-o-seu-imc/" target="_blank" rel="noopener noreferrer">Vida Saudável</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
